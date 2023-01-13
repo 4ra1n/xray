@@ -165,6 +165,69 @@ See https://docs.xray.cool/ for the following advanced uses.
 - Employing reverse platforms
 - ...
 
+## ⚡️ Advanced use
+
+### Download
+
+Latest Download：[Latest Release](https://github.com/4ra1n/super-xray/releases/latest)
+
+### PoC Search
+
+It is easy to search poc and run:
+
+![](img/0008.png)
+
+### PoCs
+
+Search and Copy
+
+![](img/0007.png)
+
+### With rad
+
+After version 0.8, it can be linked with `rad`:
+
+Note: First enter the port to enable passive scanning, and then open the `rad` coordination
+
+![](img/0004.png)
+
+### Download Panel
+
+After version 1.0, we support download panel:
+
+![](img/0005.png)
+
+### Subdomain Scan
+
+After version 1.0, we support subdomain scan:
+
+![](img/0006.png)
+
+### Reverse
+
+1. Finish client reverse config and Click Configure Server
+2. Enter any database file name
+3. Enter the token password arbitrarily
+4. Do not change the IP address and enter a listening port
+5. Click Export Configuration File to get a reverse/config.yaml
+6. Copy xray and this file to the server
+7. Server `./xray reverse` Start the reverse platform
+8. Enter the corresponding token and http url on the reverse connection platform (note that the IP format is http://1.1.1.1:8080 ）
+9. Enable active scanning or passive scanning
+
+![](img/0009.png)
+
+### Menu
+
+Help
+
+![](img/0010.png)
+
+Version Check
+
+![](img/0011.png)
+
+
 ## 😘 Contribute POC
 
 See: https://docs.xray.cool/#/guide/contribute
